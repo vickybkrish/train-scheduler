@@ -1,0 +1,25 @@
+body {
+  background-color: #122061;
+}
+
+@font-face {
+  font-family: 'outlaw';
+  src: url('../images/outlaw.woff') format('woff'), url('../images/outlaw.ttf') format('truetype');
+}
+
+.panel-default>.panel-heading {
+  background-color: #6cb5d8;
+}
+  .panel-title {
+  font-family: 'outlaw';
+  font-size: 20px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+.panel-body {
+  padding: 15px;
+  background-color: rgb(231, 247, 249);
+}
